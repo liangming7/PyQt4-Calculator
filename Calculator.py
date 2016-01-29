@@ -1,6 +1,6 @@
 import sys
 from PyQt4 import QtCore, QtGui, uic
-Ui_MainWindow, QtBaseClass = uic.loadUiType("calculator_demo.ui")
+Ui_MainWindow, QtBaseClass = uic.loadUiType("calculator_ui.ui")
 
 class Stack():
 	def __init__(self):
